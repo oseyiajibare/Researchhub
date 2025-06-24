@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Report Writing Services</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#3b82f6',secondary:'#64748b'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Inter', sans-serif;
+}
+.hero-section {
+background-image: url('https://readdy.ai/api/search-image?query=professional%20workspace%20with%20books%2C%20laptop%2C%20papers%2C%20and%20writing%20materials%20on%20a%20clean%20desk%2C%20soft%20natural%20lighting%20from%20the%20left%20side%2C%20creating%20a%20calm%20and%20productive%20atmosphere%2C%20minimalist%20style%20with%20neutral%20colors%2C%20perfect%20for%20academic%20and%20business%20writing%2C%20high%20quality%20professional%20photography&width=1920&height=800&seq=hero1&orientation=landscape');
+background-size: cover;
+background-position: center right;
+}
+.hero-content {
+background: linear-gradient(to right, rgba(255, 255, 255, 0.95) 50%, rgba(255, 255, 255, 0.8) 70%, rgba(255, 255, 255, 0) 100%);
+}
+input:focus, textarea:focus {
+outline: none;
+border-color: #3b82f6;
+}
+.custom-checkbox {
+position: relative;
+padding-left: 28px;
+cursor: pointer;
+user-select: none;
+}
+.custom-checkbox input {
+position: absolute;
+opacity: 0;
+cursor: pointer;
+height: 0;
+width: 0;
+}
+.checkmark {
+position: absolute;
+top: 0;
+left: 0;
+height: 20px;
+width: 20px;
+background-color: #fff;
+border: 2px solid #e5e7eb;
+border-radius: 4px;
+}
+.custom-checkbox:hover input ~ .checkmark {
+border-color: #3b82f6;
+}
+.custom-checkbox input:checked ~ .checkmark {
+background-color: #3b82f6;
+border-color: #3b82f6;
+}
+.checkmark:after {
+content: "";
+position: absolute;
+display: none;
+}
+.custom-checkbox input:checked ~ .checkmark:after {
+display: block;
+}
+.custom-checkbox .checkmark:after {
+left: 6px;
+top: 2px;
+width: 5px;
+height: 10px;
+border: solid white;
+border-width: 0 2px 2px 0;
+transform: rotate(45deg);
+}
+</style>
+</head>
+<body class="bg-gray-50">
+<!-- Header -->
+<header class="bg-white shadow-sm sticky top-0 z-50">
+<div class="container mx-auto px-4 py-4 flex items-center justify-between">
+<div class="flex items-center">
+<a href="#" class="text-3xl font-['Pacifico'] text-primary mr-10">logo</a>
+<nav class="hidden md:flex space-x-8">
+<a href="#services" class="text-gray-700 hover:text-primary font-medium transition-colors">Services</a>
+<a href="#how-it-works" class="text-gray-700 hover:text-primary font-medium transition-colors">How It Works</a>
+<a href="#pricing" class="text-gray-700 hover:text-primary font-medium transition-colors">Pricing</a>
+<a href="#resources" class="text-gray-700 hover:text-primary font-medium transition-colors">Resources</a>
+</nav>
+</div>
+<div class="flex items-center">
+<button class="hidden md:block text-gray-700 hover:text-primary mr-6 font-medium">Log In</button>
+<button class="bg-primary text-white px-5 py-2 !rounded-button font-medium hover:bg-blue-600 transition-colors whitespace-nowrap">Get Started</button>
+<button class="ml-4 md:hidden w-10 h-10 flex items-center justify-center">
+<i class="ri-menu-line text-gray-700 ri-lg"></i>
+</button>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="hero-section relative">
+<div class="hero-content w-full min-h-[600px] flex items-center">
+<div class="container mx-auto px-4 py-20">
+<div class="max-w-2xl">
+<h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Professional Writing Support When You Need It Most</h1>
+<p class="text-lg text-gray-700 mb-8">Expert assistance for academic reports, research projects, assessments, and business proposals. Elevate your work with our professional writing services.</p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="bg-primary text-white px-6 py-3 !rounded-button font-medium hover:bg-blue-600 transition-colors whitespace-nowrap">Get Writing Help</button>
+<button class="bg-white text-primary px-6 py-3 !rounded-button font-medium border border-primary hover:bg-gray-50 transition-colors whitespace-nowrap">Learn More</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Grid -->
+<section id="services" class="py-20 bg-white">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="text-3xl font-bold text-gray-900 mb-4">Our Writing Services</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">Comprehensive writing solutions tailored to your specific needs, delivered by experts in various academic and professional fields.</p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Service 1 -->
+<div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+<div class="w-14 h-14 bg-blue-50 rounded-full flex items-center justify-center mb-5">
+<i class="ri-file-text-line text-primary ri-xl"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-3">Report Writing</h3>
+<p class="text-gray-600 mb-4">Professional reports that are well-structured, thoroughly researched, and formatted to your specifications.</p>
+<a href="#" class="text-primary font-medium inline-flex items-center hover:underline">
+Learn More
+<i class="ri-arrow-right-line ml-1"></i>
+</a>
+</div>
+<!-- Service 2 -->
+<div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+<div class="w-14 h-14 bg-blue-50 rounded-full flex items-center justify-center mb-5">
+<i class="ri-search-line text-primary ri-xl"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-3">Research Projects</h3>
+<p class="text-gray-600 mb-4">Comprehensive research support including literature reviews, methodology design, and data analysis.</p>
+<a href="#" class="text-primary font-medium inline-flex items-center hover:underline">
+Learn More
+<i class="ri-arrow-right-line ml-1"></i>
+</a>
+</div>
+<!-- Service 3 -->
+<div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+<div class="w-14 h-14 bg-blue-50 rounded-full flex items-center justify-center mb-5">
+<i class="ri-book-open-line text-primary ri-xl"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-3">Academic Assessments</h3>
+<p class="text-gray-600 mb-4">Expert assistance with essays, dissertations, theses, and other academic assignments across disciplines.</p>
+<a href="#" class="text-primary font-medium inline-flex items-center hover:underline">
+Learn More
+<i class="ri-arrow-right-line ml-1"></i>
+</a>
+</div>
+<!-- Service 4 -->
+<div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border border-gray-100">
+<div class="w-14 h-14 bg-blue-50 rounded-full flex items-center justify-center mb-5">
+<i class="ri-presentation-line text-primary ri-xl"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-3">Business Proposals</h3>
+<p class="text-gray-600 mb-4">Compelling business proposals and plans that effectively communicate your ideas and vision.</p>
+<a href="#" class="text-primary font-medium inline-flex items-center hover:underline">
+Learn More
+<i class="ri-arrow-right-line ml-1"></i>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us -->
+<section class="py-20 bg-gray-50">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="text-3xl font-bold text-gray-900 mb-4">Why Choose Our Writing Services</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">We combine expertise, dedication, and quality assurance to deliver exceptional writing solutions for every client.</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<!-- Benefit 1 -->
+<div class="bg-white p-8 rounded-lg shadow-md text-center">
+<div class="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-6">
+<i class="ri-user-star-line text-primary ri-xl"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-3">Professional Expertise</h3>
+<p class="text-gray-600">Our team consists of subject matter experts with advanced degrees and professional experience in their respective fields.</p>
+</div>
+<!-- Benefit 2 -->
+<div class="bg-white p-8 rounded-lg shadow-md text-center">
+<div class="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-6">
+<i class="ri-time-line text-primary ri-xl"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-3">Quick Turnaround</h3>
+<p class="text-gray-600">We understand deadlines are critical. Our efficient process ensures timely delivery without compromising on quality.</p>
+</div>
+<!-- Benefit 3 -->
+<div class="bg-white p-8 rounded-lg shadow-md text-center">
+<div class="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-6">
+<i class="ri-shield-check-line text-primary ri-xl"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-3">Quality Guarantee</h3>
+<p class="text-gray-600">Every document undergoes rigorous quality checks. We offer revisions until you're completely satisfied with the final result.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Process Section -->
+<section id="how-it-works" class="py-20 bg-white">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="text-3xl font-bold text-gray-900 mb-4">How It Works</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">Our streamlined process makes getting professional writing assistance simple and efficient.</p>
+</div>
+<div class="max-w-4xl mx-auto">
+<div class="grid md:grid-cols-4 gap-6">
+<!-- Step 1 -->
+<div class="text-center">
+<div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center mx-auto mb-4 relative">
+<span class="text-xl font-bold">1</span>
+<div class="hidden md:block absolute w-full h-1 bg-primary right-0 top-1/2 -z-10 translate-x-1/2"></div>
+</div>
+<h3 class="text-lg font-semibold text-gray-900 mb-2">Submit Request</h3>
+<p class="text-gray-600">Fill out our simple form with your project details and requirements.</p>
+</div>
+<!-- Step 2 -->
+<div class="text-center">
+<div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center mx-auto mb-4 relative">
+<span class="text-xl font-bold">2</span>
+<div class="hidden md:block absolute w-full h-1 bg-primary right-0 top-1/2 -z-10 translate-x-1/2"></div>
+</div>
+<h3 class="text-lg font-semibold text-gray-900 mb-2">Get Matched</h3>
+<p class="text-gray-600">We'll pair you with a writer who has expertise in your specific subject area.</p>
+</div>
+<!-- Step 3 -->
+<div class="text-center">
+<div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center mx-auto mb-4 relative">
+<span class="text-xl font-bold">3</span>
+<div class="hidden md:block absolute w-full h-1 bg-primary right-0 top-1/2 -z-10 translate-x-1/2"></div>
+</div>
+<h3 class="text-lg font-semibold text-gray-900 mb-2">Review Draft</h3>
+<p class="text-gray-600">Receive your draft and request any adjustments or revisions as needed.</p>
+</div>
+<!-- Step 4 -->
+<div class="text-center">
+<div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center mx-auto mb-4">
+<span class="text-xl font-bold">4</span>
+</div>
+<h3 class="text-lg font-semibold text-gray-900 mb-2">Final Delivery</h3>
+<p class="text-gray-600">Get your polished, final document ready for submission.</p>
+</div>
+</div>
+<div class="text-center mt-12">
+<a href="https://readdy.ai/home/54693f1e-3081-449c-a1f4-81fbbd340a7a/a3bc888c-d81a-4a7a-a5c5-5ae2e042ebb2" data-readdy="true">
+<button class="bg-primary text-white px-8 py-3 !rounded-button font-medium hover:bg-blue-600 transition-colors whitespace-nowrap">Start Now</button>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Trust Indicators -->
+<section class="py-20 bg-gray-50">
+<div class="container mx-auto px-4">
+<!-- Testimonials -->
+<div class="text-center mb-16">
+<h2 class="text-3xl font-bold text-gray-900 mb-4">What Our Clients Say</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">Hear from students and professionals who have experienced the difference our writing services make.</p>
+</div>
+<div class="max-w-5xl mx-auto mb-20">
+<div class="grid md:grid-cols-3 gap-8">
+<!-- Testimonial 1 -->
+<div class="bg-white p-6 rounded-lg shadow-md">
+<div class="flex text-primary mb-4">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+</div>
+<p class="text-gray-600 mb-6">"The research paper I received exceeded my expectations. My professor was impressed with the depth of analysis and quality of sources. Highly recommend!"</p>
+<div class="flex items-center">
+<div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+<span class="text-primary font-medium">JD</span>
+</div>
+<div>
+<h4 class="font-medium text-gray-900">James Davidson</h4>
+<p class="text-sm text-gray-500">PhD Student, Economics</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="bg-white p-6 rounded-lg shadow-md">
+<div class="flex text-primary mb-4">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+</div>
+<p class="text-gray-600 mb-6">"The business proposal they created helped us secure important funding. The writer understood our industry perfectly and highlighted our strengths effectively."</p>
+<div class="flex items-center">
+<div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+<span class="text-primary font-medium">EM</span>
+</div>
+<div>
+<h4 class="font-medium text-gray-900">Emily Martinez</h4>
+<p class="text-sm text-gray-500">Startup Founder</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="bg-white p-6 rounded-lg shadow-md">
+<div class="flex text-primary mb-4">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-half-fill"></i>
+</div>
+<p class="text-gray-600 mb-6">"I was struggling with my dissertation until I found this service. My writer provided invaluable guidance and helped me structure my research effectively."</p>
+<div class="flex items-center">
+<div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
+<span class="text-primary font-medium">RK</span>
+</div>
+<div>
+<h4 class="font-medium text-gray-900">Rachel Kim</h4>
+<p class="text-sm text-gray-500">Master's Student, Psychology</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Partnerships & Stats -->
+<div class="grid md:grid-cols-2 gap-12">
+<!-- Partnerships -->
+<div>
+<h3 class="text-xl font-semibold text-gray-900 mb-6 text-center">Trusted By</h3>
+<div class="grid grid-cols-3 gap-6">
+<div class="flex flex-col items-center">
+<div class="w-12 h-12 flex items-center justify-center mb-2">
+<i class="ri-building-4-line text-gray-400 ri-2x"></i>
+</div>
+<span class="text-sm text-gray-500 text-center">Cambridge University</span>
+</div>
+<div class="flex flex-col items-center">
+<div class="w-12 h-12 flex items-center justify-center mb-2">
+<i class="ri-government-line text-gray-400 ri-2x"></i>
+</div>
+<span class="text-sm text-gray-500 text-center">Oxford Research</span>
+</div>
+<div class="flex flex-col items-center">
+<div class="w-12 h-12 flex items-center justify-center mb-2">
+<i class="ri-building-2-line text-gray-400 ri-2x"></i>
+</div>
+<span class="text-sm text-gray-500 text-center">Stanford Institute</span>
+</div>
+<div class="flex flex-col items-center">
+<div class="w-12 h-12 flex items-center justify-center mb-2">
+<i class="ri-building-line text-gray-400 ri-2x"></i>
+</div>
+<span class="text-sm text-gray-500 text-center">Harvard Academy</span>
+</div>
+<div class="flex flex-col items-center">
+<div class="w-12 h-12 flex items-center justify-center mb-2">
+<i class="ri-bank-line text-gray-400 ri-2x"></i>
+</div>
+<span class="text-sm text-gray-500 text-center">Princeton Labs</span>
+</div>
+<div class="flex flex-col items-center">
+<div class="w-12 h-12 flex items-center justify-center mb-2">
+<i class="ri-community-line text-gray-400 ri-2x"></i>
+</div>
+<span class="text-sm text-gray-500 text-center">MIT Research</span>
+</div>
+</div>
+</div>
+<!-- Stats -->
+<div>
+<h3 class="text-xl font-semibold text-gray-900 mb-6 text-center">Our Impact</h3>
+<div class="grid grid-cols-2 gap-6">
+<div class="bg-white p-6 rounded-lg shadow-sm text-center">
+<h4 class="text-3xl font-bold text-primary mb-2">98%</h4>
+<p class="text-gray-600">Client Satisfaction Rate</p>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-sm text-center">
+<h4 class="text-3xl font-bold text-primary mb-2">10,000+</h4>
+<p class="text-gray-600">Completed Projects</p>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-sm text-center">
+<h4 class="text-3xl font-bold text-primary mb-2">500+</h4>
+<p class="text-gray-600">Expert Writers</p>
+</div>
+<div class="bg-white p-6 rounded-lg shadow-sm text-center">
+<h4 class="text-3xl font-bold text-primary mb-2">24/7</h4>
+<p class="text-gray-600">Customer Support</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Pricing Section -->
+<section id="pricing" class="py-20 bg-white">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="text-3xl font-bold text-gray-900 mb-4">Simple, Transparent Pricing</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">Choose the plan that fits your needs. All plans include unlimited revisions and 24/7 support.</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+<!-- Basic Plan -->
+<div class="bg-white rounded-lg shadow-md border border-gray-100 overflow-hidden">
+<div class="p-6 border-b border-gray-100">
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Standard</h3>
+<div class="flex items-baseline mb-4">
+<span class="text-3xl font-bold text-gray-900">$19</span>
+<span class="text-gray-500 ml-1">/ page</span>
+</div>
+<p class="text-gray-600">Perfect for essays and basic reports with standard delivery times.</p>
+</div>
+<div class="p-6">
+<ul class="space-y-3 mb-6">
+<li class="flex items-start">
+<i class="ri-check-line text-primary ri-lg mt-0.5 mr-2"></i>
+<span class="text-gray-600">7-day delivery</span>
+</li>
+<li class="flex items-start">
+<i class="ri-check-line text-primary ri-lg mt-0.5 mr-2"></i>
+<span class="text-gray-600">2 rounds of revisions</span>
+</li>
+<li class="flex items-start">
+<i class="ri-check-line text-primary ri-lg mt-0.5 mr-2"></i>
+<span class="text-gray-600">Basic formatting</span>
+</li>
+<li class="flex items-start">
+<i class="ri-check-line text-primary ri-lg mt-0.5 mr-2"></i>
+<span class="text-gray-600">Email support</span>
+</li>
+</ul>
+<button class="w-full bg-white text-primary border border-primary px-6 py-3 !rounded-button font-medium hover:bg-gray-50 transition-colors whitespace-nowrap">Choose Plan</button>
+</div>
+</div>
+<!-- Premium Plan -->
+<div class="bg-white rounded-lg shadow-xl border-2 border-primary overflow-hidden relative transform scale-105">
+<div class="absolute top-0 right-0 bg-primary text-white text-xs font-bold px-3 py-1">POPULAR</div>
+<div class="p-6 border-b border-gray-100">
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Premium</h3>
+<div class="flex items-baseline mb-4">
+<span class="text-3xl font-bold text-gray-900">$29</span>
+<span class="text-gray-500 ml-1">/ page</span>
+</div>
+<p class="text-gray-600">Ideal for research papers and complex reports with faster delivery.</p>
+</div>
+<div class="p-6">
+<ul class="space-y-3 mb-6">
+<li class="flex items-start">
+<i class="ri-check-line text-primary ri-lg mt-0.5 mr-2"></i>
+<span class="text-gray-600">3-day delivery</span>
+</li>
+<li class="flex items-start">
+<i class="ri-check-line text-primary ri-lg mt-0.5 mr-2"></i>
+<span class="text-gray-600">Unlimited revisions</span>
+</li>
+<li class="flex items-start">
+<i class="ri-check-line text-primary ri-lg mt-0.5 mr-2"></i>
+<span class="text-gray-600">Advanced formatting</span>
+</li>
+<li class="flex items-start">
+<i class="ri-check-line text-primary ri-lg mt-0.5 mr-2"></i>
+<span class="text-gray-600">Priority support</span>
+</li>
+<li class="flex items-start">
+<i class="ri-check-line text-primary ri-lg mt-0.5 mr-2"></i>
+<span class="text-gray-600">Plagiarism check</span>
+</li>
+</ul>
+<button class="w-full bg-primary text-white px-6 py-3 !rounded-button font-medium hover:bg-blue-600 transition-colors whitespace-nowrap">Choose Plan</button>
+</div>
+</div>
+<!-- Professional Plan -->
+<div class="bg-white rounded-lg shadow-md border border-gray-100 overflow-hidden">
+<div class="p-6 border-b border-gray-100">
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Professional</h3>
+<div class="flex items-baseline mb-4">
+<span class="text-3xl font-bold text-gray-900">$49</span>
+<span class="text-gray-500 ml-1">/ page</span>
+</div>
+<p class="text-gray-600">For dissertations, theses, and business documents requiring expert attention.</p>
+</div>
+<div class="p-6">
+<ul class="space-y-3 mb-6">
+<li class="flex items-start">
+<i class="ri-check-line text-primary ri-lg mt-0.5 mr-2"></i>
+<span class="text-gray-600">24-hour delivery</span>
+</li>
+<li class="flex items-start">
+<i class="ri-check-line text-primary ri-lg mt-0.5 mr-2"></i>
+<span class="text-gray-600">Unlimited revisions</span>
+</li>
+<li class="flex items-start">
+<i class="ri-check-line text-primary ri-lg mt-0.5 mr-2"></i>
+<span class="text-gray-600">Premium formatting</span>
+</li>
+<li class="flex items-start">
+<i class="ri-check-line text-primary ri-lg mt-0.5 mr-2"></i>
+<span class="text-gray-600">24/7 direct writer contact</span>
+</li>
+<li class="flex items-start">
+<i class="ri-check-line text-primary ri-lg mt-0.5 mr-2"></i>
+<span class="text-gray-600">Plagiarism check</span>
+</li>
+<li class="flex items-start">
+<i class="ri-check-line text-primary ri-lg mt-0.5 mr-2"></i>
+<span class="text-gray-600">Expert subject specialist</span>
+</li>
+</ul>
+<button class="w-full bg-white text-primary border border-primary px-6 py-3 !rounded-button font-medium hover:bg-gray-50 transition-colors whitespace-nowrap">Choose Plan</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-20 bg-gray-50">
+<div class="container mx-auto px-4">
+<div class="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+<!-- Contact Form -->
+<div>
+<h2 class="text-2xl font-bold text-gray-900 mb-6">Get in Touch</h2>
+<form>
+<div class="mb-4">
+<label for="name" class="block text-gray-700 mb-2">Full Name</label>
+<input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded focus:border-primary" placeholder="Your name">
+</div>
+<div class="mb-4">
+<label for="email" class="block text-gray-700 mb-2">Email Address</label>
+<input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded focus:border-primary" placeholder="your.email@example.com">
+</div>
+<div class="mb-4">
+<label for="subject" class="block text-gray-700 mb-2">Subject</label>
+<input type="text" id="subject" class="w-full px-4 py-2 border border-gray-300 rounded focus:border-primary" placeholder="How can we help you?">
+</div>
+<div class="mb-6">
+<label for="message" class="block text-gray-700 mb-2">Message</label>
+<textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded focus:border-primary" placeholder="Tell us more about your project..."></textarea>
+</div>
+<button type="submit" class="bg-primary text-white px-6 py-3 !rounded-button font-medium hover:bg-blue-600 transition-colors whitespace-nowrap">Send Message</button>
+</form>
+</div>
+<!-- FAQ Section -->
+<div>
+<h2 class="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
+<div class="space-y-4">
+<div class="border border-gray-200 rounded">
+<button class="flex justify-between items-center w-full px-4 py-3 text-left font-medium text-gray-900 focus:outline-none">
+<span>How do you ensure quality?</span>
+<i class="ri-arrow-down-s-line"></i>
+</button>
+<div class="px-4 pb-4">
+<p class="text-gray-600">We have a rigorous quality control process. Each document goes through multiple reviews, including plagiarism checks, grammar verification, and expert evaluation to ensure it meets our high standards.</p>
+</div>
+</div>
+<div class="border border-gray-200 rounded">
+<button class="flex justify-between items-center w-full px-4 py-3 text-left font-medium text-gray-900 focus:outline-none">
+<span>What if I'm not satisfied with the work?</span>
+<i class="ri-arrow-down-s-line"></i>
+</button>
+<div class="hidden px-4 pb-4">
+<p class="text-gray-600">We offer unlimited revisions until you're completely satisfied. If you're still not happy after multiple revisions, we provide partial or full refunds depending on the circumstances.</p>
+</div>
+</div>
+<div class="border border-gray-200 rounded">
+<button class="flex justify-between items-center w-full px-4 py-3 text-left font-medium text-gray-900 focus:outline-none">
+<span>How do I track my order?</span>
+<i class="ri-arrow-down-s-line"></i>
+</button>
+<div class="hidden px-4 pb-4">
+<p class="text-gray-600">Once you place an order, you'll receive access to our client portal where you can track progress, communicate with your writer, and receive updates at every stage of the writing process.</p>
+</div>
+</div>
+<div class="border border-gray-200 rounded">
+<button class="flex justify-between items-center w-full px-4 py-3 text-left font-medium text-gray-900 focus:outline-none">
+<span>Is my information confidential?</span>
+<i class="ri-arrow-down-s-line"></i>
+</button>
+<div class="hidden px-4 pb-4">
+<p class="text-gray-600">Absolutely. We have strict confidentiality policies in place. Your personal information and project details are never shared with third parties, and all our writers sign NDAs.</p>
+</div>
+</div>
+</div>
+<div class="mt-8 bg-blue-50 p-6 rounded-lg">
+<h3 class="text-lg font-semibold text-gray-900 mb-3">Need Immediate Assistance?</h3>
+<p class="text-gray-600 mb-4">Our support team is available 24/7 to help with any questions.</p>
+<div class="flex items-center mb-2">
+<i class="ri-mail-line text-primary mr-2"></i>
+<span class="text-gray-700">support@writingservice.com</span>
+</div>
+<div class="flex items-center">
+<i class="ri-phone-line text-primary mr-2"></i>
+<span class="text-gray-700">+1 (800) 123-4567</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Newsletter -->
+<section class="py-16 bg-primary">
+<div class="container mx-auto px-4">
+<div class="max-w-3xl mx-auto text-center">
+<h2 class="text-2xl font-bold text-white mb-3">Stay Updated with Writing Tips & Resources</h2>
+<p class="text-blue-100 mb-6">Subscribe to our newsletter for expert advice, industry updates, and exclusive offers.</p>
+<form class="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto">
+<input type="email" placeholder="Your email address" class="flex-grow px-4 py-3 rounded-lg border-none focus:outline-none">
+<button type="submit" class="bg-white text-primary px-6 py-3 !rounded-button font-medium hover:bg-gray-100 transition-colors whitespace-nowrap">Subscribe</button>
+</form>
+<p class="text-blue-100 text-sm mt-4">We respect your privacy. Unsubscribe at any time.</p>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-gray-900 text-gray-400 py-12">
+<div class="container mx-auto px-4">
+<div class="grid md:grid-cols-4 gap-8 mb-8">
+<!-- Company Info -->
+<div>
+<a href="#" class="text-2xl font-['Pacifico'] text-white mb-4 inline-block">logo</a>
+<p class="mb-4">Professional writing services for academic and business needs. Quality, reliability, and expertise since 2010.</p>
+<div class="flex space-x-4">
+<a href="#" class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary hover:text-white transition-colors">
+<i class="ri-facebook-fill"></i>
+</a>
+<a href="#" class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary hover:text-white transition-colors">
+<i class="ri-twitter-fill"></i>
+</a>
+<a href="#" class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary hover:text-white transition-colors">
+<i class="ri-linkedin-fill"></i>
+</a>
+<a href="#" class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-800 hover:bg-primary hover:text-white transition-colors">
+<i class="ri-instagram-fill"></i>
+</a>
+</div>
+</div>
+<!-- Services -->
+<div>
+<h3 class="text-white text-lg font-semibold mb-4">Services</h3>
+<ul class="space-y-2">
+<li><a href="#" class="hover:text-white transition-colors">Report Writing</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Research Projects</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Academic Assessments</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Business Proposals</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Editing & Proofreading</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Dissertation Help</a></li>
+</ul>
+</div>
+<!-- Resources -->
+<div>
+<h3 class="text-white text-lg font-semibold mb-4">Resources</h3>
+<ul class="space-y-2">
+<li><a href="#" class="hover:text-white transition-colors">Writing Guides</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Citation Tools</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Sample Papers</a></li>
+<li><a href="#" class="hover:text-white transition-colors">FAQ</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Customer Support</a></li>
+</ul>
+</div>
+<!-- Legal -->
+<div>
+<h3 class="text-white text-lg font-semibold mb-4">Legal</h3>
+<ul class="space-y-2">
+<li><a href="#" class="hover:text-white transition-colors">Terms of Service</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Refund Policy</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Academic Integrity</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Cookie Policy</a></li>
+</ul>
+</div>
+</div>
+<div class="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
+<p>© 2025 Professional Writing Services. All rights reserved.</p>
+<div class="mt-4 md:mt-0 flex items-center">
+<span class="mr-4">Secure Payment:</span>
+<div class="flex space-x-3">
+<i class="ri-visa-fill text-xl"></i>
+<i class="ri-mastercard-fill text-xl"></i>
+<i class="ri-paypal-fill text-xl"></i>
+<i class="ri-apple-fill text-xl"></i>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script id="faqAccordion">
+document.addEventListener('DOMContentLoaded', function() {
+const faqButtons = document.querySelectorAll('.border.border-gray-200.rounded button');
+faqButtons.forEach(button => {
+button.addEventListener('click', function() {
+const content = this.nextElementSibling;
+const icon = this.querySelector('i');
+// Toggle content visibility
+if (content.classList.contains('hidden')) {
+content.classList.remove('hidden');
+icon.classList.remove('ri-arrow-down-s-line');
+icon.classList.add('ri-arrow-up-s-line');
+} else {
+content.classList.add('hidden');
+icon.classList.remove('ri-arrow-up-s-line');
+icon.classList.add('ri-arrow-down-s-line');
+}
+});
+});
+// Open the first FAQ by default
+if (faqButtons.length > 0) {
+faqButtons[0].click();
+}
+});
+</script>
+<script id="mobileMenu">
+document.addEventListener('DOMContentLoaded', function() {
+const menuButton = document.querySelector('.md\\:hidden');
+if (menuButton) {
+menuButton.addEventListener('click', function() {
+// Mobile menu functionality would go here
+alert('Mobile menu clicked - functionality to be implemented');
+});
+}
+});
+</script>
+</body>
+</html>
